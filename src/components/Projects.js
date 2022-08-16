@@ -18,7 +18,7 @@ export default function Projects() {
             <li className="col m-2"><a href="https://github.com/mikerjohnson27/Development-Bulletin" target="_blank" rel="noreferrer">Development Bulletin</a>
             <a href="https://whispering-journey-87250.herokuapp.com/login" target="_blank" rel="noreferrer"> <img src={bulletin} alt="Development Bulletin"></img></a></li>
             <li className="col m-2"><a href="https://github.com/BillyBain/employee_tracker" target="_blank" rel="noreferrer">Employee Tracker App</a>
-            <a href="https://billybain.github.io/week-3-homework/" target="_blank" rel="noreferrer"> <img src={employee} alt="Employee Tracker App"></img></a></li>
+            <a href="https://github.com/BillyBain/employee_tracker" target="_blank" rel="noreferrer"> <img src={employee} alt="Employee Tracker App"></img></a></li>
             <li className="col m-2"><a href="https://github.com/BillyBain/week-6-homework" target="_blank" rel="noreferrer">Weather App</a>
             <a href="https://billybain.github.io/week-6-homework/" target="_blank" rel="noreferrer"> <img src={weather} alt="Weather App"></img></a></li>
             <li className="col m-2"><a href="https://github.com/BillyBain/week-5-homework" target="_blank" rel="noreferrer">Daily Planner</a>
