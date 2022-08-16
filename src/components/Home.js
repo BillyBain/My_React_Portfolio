@@ -6,6 +6,7 @@ import resume from '../files/William_Bain_Resume.pdf'
 
 export default function Display() {
   const [display, setDisplay] = useState('About');
+  
   useEffect(() => {
     document.title = "William Bain's Portfolio"
   }, [])
