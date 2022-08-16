@@ -10,6 +10,7 @@ export default function Display() {
   useEffect(() => {
     document.title = "William Bain's Portfolio"
   }, [])
+ 
   return (
     <div>
       <nav className="navbar">
