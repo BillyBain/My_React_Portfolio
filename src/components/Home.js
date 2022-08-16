@@ -1,16 +1,19 @@
 import Projects from './Projects';
 import Contact from './Contact';
 import About from './About';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import resume from '../files/William_Bain_Resume.pdf'
 
 export default function Display() {
   const [display, setDisplay] = useState('About');
+  useEffect(() => {
+    document.title = "William Bain's Portfolio"
+  }, [])
   return (
     <div>
       <nav className="navbar">
       <h1 className="nav-item">
-        Billy Bain's Portfolio
+        William Bain's Portfolio
       </h1>
         <div className='container justify-content-end'>  
           <button className="btn btn-secondary m-2" onClick={() => setDisplay('About')}>About Me</button>
