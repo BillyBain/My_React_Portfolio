@@ -1,38 +1,84 @@
-.App {
-  text-align: center;
+:root{
+    --blue: rgb(101, 178, 180);
+    --white: rgb(247, 244, 224);
+    --gray:  rgb(96, 94, 94);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    font-family: 'Permanent Marker', cursive;
+    color: var(--white);
+    background-color: var(--gray);
+}
+header{
+    background-color: var(--blue);
+    border-bottom: solid var(--white) 3px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+h1{
+    color: var(--white);
+    font-size: 75px;
+    padding: 10px;
+    text-shadow: -5px 5px 10px  rgb(0, 0, 0);
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+header ul{
+    background-color: var(--blue);
 }
+header li{
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 20px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+nav {
+    background-color: var(--blue);  
+}
+li a{
+    color: var(--white);
+    font-size: 25px;
+}
+p a{
+    color: var(--white);
+    font-size: 25px;
+}
+li img {
+    filter: blur(8px);
+}
+li img:hover {
+    filter: none;
+}
+h2{
+    font-size: 40px;
+    border-right: 3px solid var(--white);
+    border-bottom:3px solid var(--white);
+    margin: 35px;
+
+    background-color: var(--blue);
+}
+img {
+    background-color:var(--blue);
+    border: 3px solid var(--white);
+    padding: 4px;
+    margin: 5px;
+    max-width: 200px;
+    max-height: 750px;
+}
+ul {
+    list-style-type: none;
+}
+div li{
+    background-color:var(--blue);
+    border: 3px solid var(--white);
+    padding: 4px;
+    margin: 5px;
+}
+p {
+    background-color:var(--blue);
+    border: 3px solid var(--white);
+    padding: 4px;
+    margin: 5px; 
+    font-size: 30px;
+}
+footer{
+    text-align: center;
 }
