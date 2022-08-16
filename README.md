@@ -14,7 +14,7 @@ This is my portfolio build using React.
 
 # Installation
 
-1: Pull from: ``
+1: Pull from: `https://github.com/BillyBain/My_React_Portfolio`
 
 2: Then in an intergatered terminal run `npm i`
 
@@ -26,10 +26,11 @@ Free for anyone to use or edit!
 # Links
 Github Repo: https://github.com/BillyBain/My_React_Portfolio
 
-Live Link:
+Live Link: https://billybain.github.io/My_React_Portfolio/
 
 # Test Instructions
-
+Once installed you can play around with the code. Follow the tabs to look the different topics and notice it all stays in the same page! Except the resume which brings
+you to a link to downlod it.
 
 # Thoughts
 React is a lot of fun I cannot wait to do more with it!! 
