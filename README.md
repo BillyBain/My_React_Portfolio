@@ -30,7 +30,7 @@ Live Link: https://billybain.github.io/My_React_Portfolio/
 
 # Test Instructions
 Once installed you can play around with the code. Follow the tabs to look the different topics and notice it all stays in the same page! Except the resume which brings
-you to a link to downlod it.
+you to a link to download it.
 
 # Thoughts
 React is a lot of fun I cannot wait to do more with it!! 
