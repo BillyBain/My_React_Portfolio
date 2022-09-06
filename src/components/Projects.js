@@ -5,7 +5,7 @@ import employee from '../img/employee-tracker.png';
 import weather from '../img/weather-app.png';
 import planner from '../img/daily-planner.png';
 import quiz from '../img/code-quiz.png';
-
+import hotspot from '../img/hotspot.png';
 
 
 export default function Projects() {
@@ -13,6 +13,8 @@ export default function Projects() {
     <div className="container-fluid">
           <h3 className='m-2'> Welcome to my Projects to view the Github Repos please click on the Titles and to view the Deployed Projects click on the Images!</h3>
           <ul className="container-fluid row align-items-start">
+            <li className="col m-2"><a href="https://github.com/BillyBain/HotSpot" target="_blank" rel="noreferrer">HotSpot</a>
+            <a href="https://hotspot-search.herokuapp.com/" target="_blank" rel="noreferrer"> <img src={hotspot} alt="HotSpot"></img></a></li>
             <li className="col m-2"><a href="https://github.com/falbanese7/movie-refresh" target="_blank" rel="noreferrer">Movie Refresh</a>
             <a href="https://falbanese7.github.io/movie-refresh/" target="_blank" rel="noreferrer"> <img src={movie} alt="Movie Refresh"></img></a></li>
             <li className="col m-2"><a href="https://github.com/mikerjohnson27/Development-Bulletin" target="_blank" rel="noreferrer">Development Bulletin</a>
