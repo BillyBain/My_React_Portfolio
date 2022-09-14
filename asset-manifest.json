@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/My_React_Portfolio/static/css/main.144a7d69.css",
-    "main.js": "/My_React_Portfolio/static/js/main.6f5b0b77.js",
+    "main.js": "/My_React_Portfolio/static/js/main.b269ec73.js",
+    "static/media/hotspot.png": "/My_React_Portfolio/static/media/hotspot.ac4b21390ee445f4d2ef.png",
     "static/media/movie-refresh.png": "/My_React_Portfolio/static/media/movie-refresh.0e275cea1df150c4d947.png",
     "static/media/pro_pic.jpg": "/My_React_Portfolio/static/media/pro_pic.823841e50c814e7eb27e.jpg",
     "static/media/employee-tracker.png": "/My_React_Portfolio/static/media/employee-tracker.328b87d15616fdd58dca.png",
     "static/media/dev-bulletin.png": "/My_React_Portfolio/static/media/dev-bulletin.14982fe87c57d36a8e54.png",
     "static/media/weather-app.png": "/My_React_Portfolio/static/media/weather-app.2a6e915cb888529aa609.png",
-    "static/media/William_Bain_Resume.pdf": "/My_React_Portfolio/static/media/William_Bain_Resume.44abd29631fc552916a5.pdf",
     "static/media/daily-planner.png": "/My_React_Portfolio/static/media/daily-planner.9b186e5285d6ac3957c5.png",
+    "static/media/WilliamBainResume.pdf": "/My_React_Portfolio/static/media/WilliamBainResume.dcd8bb533ac4b568b1ae.pdf",
     "static/media/code-quiz.png": "/My_React_Portfolio/static/media/code-quiz.927a6273333b74194b3a.png",
     "static/media/password-gen.png": "/My_React_Portfolio/static/media/password-gen.859e0b63e50841db7e83.png",
     "index.html": "/My_React_Portfolio/index.html",
     "main.144a7d69.css.map": "/My_React_Portfolio/static/css/main.144a7d69.css.map",
-    "main.6f5b0b77.js.map": "/My_React_Portfolio/static/js/main.6f5b0b77.js.map"
+    "main.b269ec73.js.map": "/My_React_Portfolio/static/js/main.b269ec73.js.map"
   },
   "entrypoints": [
     "static/css/main.144a7d69.css",
-    "static/js/main.6f5b0b77.js"
+    "static/js/main.b269ec73.js"
   ]
 }
