@@ -2,7 +2,7 @@ import Projects from './Projects';
 import Contact from './Contact';
 import About from './About';
 import { useState, useEffect } from 'react';
-import resume from '../files/William_Bain_Resume.pdf'
+import resume from '../files/WilliamBainResume.pdf'
 
 export default function Display() {
   const [display, setDisplay] = useState('About');
