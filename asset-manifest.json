@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/My_React_Portfolio/static/css/main.144a7d69.css",
-    "main.js": "/My_React_Portfolio/static/js/main.b269ec73.js",
+    "main.css": "/My_React_Portfolio/static/css/main.f95e83a5.css",
+    "main.js": "/My_React_Portfolio/static/js/main.e3203eeb.js",
     "static/media/hotspot.png": "/My_React_Portfolio/static/media/hotspot.ac4b21390ee445f4d2ef.png",
     "static/media/movie-refresh.png": "/My_React_Portfolio/static/media/movie-refresh.0e275cea1df150c4d947.png",
     "static/media/pro_pic.jpg": "/My_React_Portfolio/static/media/pro_pic.823841e50c814e7eb27e.jpg",
@@ -13,11 +13,11 @@
     "static/media/code-quiz.png": "/My_React_Portfolio/static/media/code-quiz.927a6273333b74194b3a.png",
     "static/media/password-gen.png": "/My_React_Portfolio/static/media/password-gen.859e0b63e50841db7e83.png",
     "index.html": "/My_React_Portfolio/index.html",
-    "main.144a7d69.css.map": "/My_React_Portfolio/static/css/main.144a7d69.css.map",
-    "main.b269ec73.js.map": "/My_React_Portfolio/static/js/main.b269ec73.js.map"
+    "main.f95e83a5.css.map": "/My_React_Portfolio/static/css/main.f95e83a5.css.map",
+    "main.e3203eeb.js.map": "/My_React_Portfolio/static/js/main.e3203eeb.js.map"
   },
   "entrypoints": [
-    "static/css/main.144a7d69.css",
-    "static/js/main.b269ec73.js"
+    "static/css/main.f95e83a5.css",
+    "static/js/main.e3203eeb.js"
   ]
 }
