@@ -1,28 +1,33 @@
 :root{
-    --blue: rgb(101, 178, 180);
-    --white: rgb(247, 244, 224);
-    --gray:  rgb(96, 94, 94);
+    --doran: #0fa5c077;
+    --blue: #5be8f8da;
+    --white: #0b0202c1;
+    --gray:  #a3aac3;
 }
 
-body{
+*{
     font-family: 'Permanent Marker', cursive;
     color: var(--white);
-    background-color: var(--gray);
+    background: radial-gradient(white, var(--gray), var(--white));
 }
 header{
-    background-color: var(--blue);
+    background: radial-gradient(var(--blue), var(--doran));
     border-bottom: solid var(--white) 3px;
 }
 
-h1{
+h1 {
     color: var(--white);
-    font-size: 75px;
+    font-size: 60px;
     padding: 10px;
-    text-shadow: -5px 5px 10px  rgb(0, 0, 0);
-
+    text-shadow: -5px 5px 10px var(--gray);
+    background: 0;
+}
+h3 {
+    border: solid 2px;
+    background: radial-gradient(var(--blue), var(--doran));
 }
 header ul{
-    background-color: var(--blue);
+    background: 0;
 }
 header li{
     font-size: 50px;
@@ -30,55 +35,83 @@ header li{
     padding: 20px;
 
 }
-nav {
-    background-color: var(--blue);  
+.navbar {
+    background: radial-gradient(var(--blue), var(--doran)); 
+
+}
+.navlinks {
+    background: 0;
+}
+.navbutton {
+    color: var(--white);
+    background: linear-gradient(345deg, var(--gray), rgb(248, 247, 247));
+    font-size: 20px;
+    border: solid 1px;
+    border-radius: 40%;
+}
+.navbutton2 {
+    color: var(--white);
+    background: linear-gradient(345deg, var(--blue), var(--doran));
+    font-size: 20px;
+    border: solid 1px;
+    border-radius: 40%;
+}
+.navbutton :hover {
+    border: solid var(--white) 4px;
+
 }
 li a{
     color: var(--white);
     font-size: 25px;
+    background: 0;
 }
 p a{
     color: var(--white);
-    font-size: 25px;
+    font-size: 30px;
+    padding: 10px;
+    
 }
 li img {
-    filter: blur(8px);
-}
-li img:hover {
-    filter: none;
+    width: 600px;
 }
 h2{
     font-size: 40px;
     border-right: 3px solid var(--white);
     border-bottom:3px solid var(--white);
     margin: 35px;
-
-    background-color: var(--blue);
+    background: var(--blue);
 }
 img {
-    background-color:var(--blue);
+    background: radial-gradient(var(--blue), var(--doran));
     border: 3px solid var(--white);
     padding: 4px;
     margin: 5px;
-    max-width: 200px;
     max-height: 750px;
 }
 ul {
     list-style-type: none;
+    background: 0;
 }
 div li{
-    background-color:var(--blue);
+    background: radial-gradient(var(--blue), var(--doran));
     border: 3px solid var(--white);
     padding: 4px;
     margin: 5px;
 }
 p {
-    background-color:var(--blue);
+    background: radial-gradient(var(--blue), var(--doran));
     border: 3px solid var(--white);
     padding: 4px;
     margin: 5px; 
     font-size: 30px;
 }
+.input-field {
+    background: white;
+}
+.input-title {
+    background: radial-gradient(var(--blue), var(--doran));
+}
 footer{
     text-align: center;
+    background: 0;
 }

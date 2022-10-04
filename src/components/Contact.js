@@ -16,14 +16,14 @@ export default function ContactUs() {
   };
 
   return (
-    <form className='row g-3 align-items-center' ref={form} onSubmit={sendEmail}>
-      <label className='form-label fs-3 fw-bold text-decoration-underline'>Name</label>
-      <input type="text" name="user_name" />
-      <label className='form-label fs-3 fw-bold text-decoration-underline'>Email</label>
-      <input type="email" name="user_email" />
-      <label className='form-label fs-3 fw-bold text-decoration-underline'>Message</label>
-      <textarea name="message" />
-      <input className='btn btn-secondary m-2' type="submit" value="Send" />
+    <form className='row g-3 align-items-center p-3 m-3' ref={form} onSubmit={sendEmail}>
+      <label className='form-label input-title fs-3 fw-bold text-decoration-underline'>Name</label>
+      <input className='input-field' type="text" name="user_name" />
+      <label className='form-label input-title fs-3 fw-bold text-decoration-underline'>Email</label>
+      <input className='input-field' type="email" name="user_email" />
+      <label className='form-label input-title fs-3 fw-bold text-decoration-underline'>Message</label>
+      <textarea className='input-field' name="message" />
+      <input  className="navbutton2 m-2 p-3" type="submit" value="Send" />
     </form>
   );
 };
